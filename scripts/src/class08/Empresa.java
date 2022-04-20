@@ -14,6 +14,6 @@ public class Empresa {
 	public String toString() {
 		return 	"Razão Social: " + this.razaoSocial + "\n" +
 				"CNPJ: " + this.cnpj + "\n" +
-				"UF da Matriz" + this.uf.getNome() + "\n";
+				"UF da Matriz: " + this.uf.getNome() + "\n";
 	}
 }
